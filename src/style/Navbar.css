@@ -3,7 +3,7 @@
 }
 
 .navCont {
-    background-color: rgba(0, 0, 0, 0.658);
+    background-color: rgba(0, 0, 0, 0.65);
     backdrop-filter: blur(5px);
     border-bottom: 3px solid white;
     height: 3.5rem;
@@ -12,10 +12,11 @@
     align-items: center;
     justify-content: space-between;
     font-size: 1.25rem;
-    padding: 0 2rem;
+    padding: 0 4rem;
     position: fixed;
     width: 100vw;
     -webkit-text-stroke: 0.5px;
+    z-index: 2;
 }
 
 .navTitle {
@@ -39,15 +40,17 @@
     display: none;
     position: absolute;
     right: 1rem;
-    color: transparent;
+    color: white;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
 }
 
 .openMenu {
-    color: white;
+    opacity: 1;
 }
 
 .closeMenu {
-    color: white;
+    opacity: 1;
     transform: rotate(360deg);
     transition: all 600ms ease-in-out;
     width: 3rem;
@@ -63,9 +66,10 @@
 }
 
 .navLi {
-    height: 100%;
+    height: 3.3rem;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 .navLi a {
@@ -96,7 +100,7 @@
     }
     .navMenu {
         display: block;
-        transition: all 600ms ease-in-out;
+        transition: all 500ms ease-in-out;
     }
     .menuActive {
         transform: rotate(360deg);
@@ -104,18 +108,24 @@
     }
     .displayMenu {
         transform: translateX(0) !important;
+        opacity: 1 !important;
     }
     .navUl {
-        background-color: rgb(53, 53, 53);
+        background-color: rgba(0, 0, 0);
+        backdrop-filter: blur(5px);
         position: fixed;
         top: 3.5rem;
         width: 100%;
         left: 0;
         transform: translateX(50rem);
-        transition: all 300ms ease-in-out;
+        transition: all 500ms ease-in-out;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         height: 100vh;
+        font-size: 2rem;
+        gap: 2rem;
+        padding-top: 5rem;
+        opacity: 0;
     }
     .navLi {
         width: 100%;

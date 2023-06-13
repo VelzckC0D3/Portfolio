@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -26,4 +27,15 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
 }

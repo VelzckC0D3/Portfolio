@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../style/Navbar.css';
-import { NavLink } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { RiCloseLine } from 'react-icons/ri';
 
@@ -28,22 +27,8 @@ const Navbar = () => {
     setisActive(false); // Reset the isActive state on windowWidth change
   }, [windowWidth]);
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
-
   const menuActions = () => {
     if (windowWidth < 768) {
-      toggleClass();
-    }
-  };
-
-  const toTop = () => {
-    if (windowWidth < 768) {
-      scrollToTop();
       toggleClass();
     }
   };
@@ -51,7 +36,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navCont">
-        <a className="navTitle" href="#totop">
+        <a className="navTitle" href=" ">
           {' '}
           &lt;
           {' '}
@@ -60,10 +45,10 @@ const Navbar = () => {
           code.velzck &gt;
         </a>
         <ul className={`navUl ${isActive ? 'displayMenu' : ''}`}>
-          <li className="navLi"><NavLink to="/" exact="true" activeClassName="active" onClick={toTop}>home</NavLink></li>
-          <li className="navLi"><NavLink to="/projects" activeClassName="active" onClick={menuActions}>projects</NavLink></li>
-          <li className="navLi"><NavLink to="/about" activeClassName="active" onClick={menuActions}>about</NavLink></li>
-          <li className="navLi"><NavLink to="/contact" activeClassName="active" onClick={menuActions}>contact</NavLink></li>
+          <li className="navLi"><a href="#home" onClick={menuActions}>home</a></li>
+          <li className="navLi"><a href="#about" onClick={menuActions}>about</a></li>
+          <li className="navLi"><a href="#projects" onClick={menuActions}>projects</a></li>
+          <li className="navLi"><a href="#contact" onClick={menuActions}>contact</a></li>
         </ul>
 
         {' '}

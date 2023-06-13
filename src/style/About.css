@@ -1,0 +1,132 @@
+.aboutCont {
+  height: 100dvh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 3px solid white;
+}
+
+.aboutBG {
+  position: absolute;
+  height: 100dvh;
+  width: 100%;
+  background-color: rgba(29, 29, 29, 0.438);
+  backdrop-filter: blur(3px);
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.aboutMain {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutTitle {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.aboutImg {
+  width: 15rem;
+  height: 15rem;
+  background-image: url(../assets/img/profileNoBg.webp);
+  background-color: rgba(0, 0, 0, 0.6);
+  background-position: 62% 46%;
+  background-size: 125%;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  border-radius: 50%;
+  filter: grayscale(100%) contrast(1.5);
+  opacity: 0.7;
+  border: 3px solid white;
+}
+
+.aboutInfo {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutDesc {
+  padding: 2rem;
+}
+
+.aboutSpan {
+  color: rgb(0, 255, 13);
+  white-space: nowrap;
+  -webkit-text-stroke: 0.7px;
+}
+
+.aboutButtonCont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutButton {
+  bottom: 8rem;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.95);
+  font-size: 1.5rem;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 18px;
+  text-decoration: none;
+  -webkit-text-stroke: 0.5px;
+  transition: all 600ms ease-in-out;
+}
+
+.aboutButton:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 768px) {
+
+  .about {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .aboutMain {
+    width: 100%;
+    padding: 1rem 0 0;
+    border: none;
+  }
+
+  .aboutTitle {
+    margin: 0 0 1rem;
+  }
+
+  .aboutInfo {
+    width: 100%;
+    align-items: center;
+    border: none;
+  }
+
+  .aboutDesc {
+    padding: 1rem 2rem;
+  }
+
+  .aboutButtonCont {
+    position: inherit;
+  }
+}

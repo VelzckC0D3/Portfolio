@@ -7,17 +7,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import About from './components/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+      <Navbar />
       <div className="wrapper">
-        <Navbar />
         <Routes>
           <Route path="/" />
         </Routes>
         <Hero />
+        <About />
       </div>
     </Router>
   </React.StrictMode>,
