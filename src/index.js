@@ -8,6 +8,7 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Projects from './components/Projects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
         </Routes>
         <Hero />
         <About />
+        <Projects />
       </div>
     </Router>
   </React.StrictMode>,

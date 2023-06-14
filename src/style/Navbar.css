@@ -1,144 +1,149 @@
 :root {
-    --sGrey: rgb(110, 110, 110);
+  --sGrey: rgb(110, 110, 110);
 }
 
 .navCont {
-    background-color: rgba(0, 0, 0, 0.65);
-    backdrop-filter: blur(5px);
-    border-bottom: 3px solid white;
-    height: 3.5rem;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1.25rem;
-    padding: 0 4rem;
-    position: fixed;
-    width: 100vw;
-    -webkit-text-stroke: 0.5px;
-    z-index: 2;
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(5px);
+  border-bottom: 3px solid white;
+  height: 3.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  padding: 0 4rem;
+  position: fixed;
+  width: 100vw;
+  -webkit-text-stroke: 0.5px;
+  z-index: 2;
 }
 
 .navTitle {
-    color: white;
-    text-decoration: none;
-    white-space: nowrap;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .navTitle:hover {
-    -webkit-text-stroke: 1px;
+  -webkit-text-stroke: 1px;
 }
 
 .navMenu {
-    background-color: transparent;
-    border: none;
-    font-size: 1.5rem;
-    height: 2rem;
-    width: 2rem;
-    display: flex;
-    align-items: center;
-    display: none;
-    position: absolute;
-    right: 1rem;
-    color: white;
-    opacity: 0;
-    transition: all 600ms ease-in-out;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  display: none;
+  position: absolute;
+  right: 1rem;
+  color: white;
+  opacity: 0;
+  transition: all 600ms ease-in-out;
 }
 
 .openMenu {
-    opacity: 1;
+  opacity: 1;
 }
 
 .closeMenu {
-    opacity: 1;
-    transform: rotate(360deg);
-    transition: all 600ms ease-in-out;
-    width: 3rem;
-    height: 3rem;
-    right: 0.5rem;
+  opacity: 1;
+  transform: rotate(360deg);
+  transition: all 600ms ease-in-out;
+  width: 3rem;
+  height: 3rem;
+  right: 0.5rem;
 }
 
 .navUl {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navLi {
-    height: 3.3rem;
-    display: flex;
-    align-items: center;
-    z-index: 1;
+  height: 3.3rem;
+  display: flex;
+  align-items: center;
+  z-index: 1;
 }
 
 .navLi a {
-    color: var(--sGrey);
-    text-decoration: none;   
-    transition: all 300ms ease-in-out;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 8px;
+  color: var(--sGrey);
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
 }
 
 .navLi a:hover {
-    color:  white;
-    transition: all 90ms ease-in-out;
-    background-color: var(--sGrey);
+  color: white;
+  transition: all 90ms ease-in-out;
+  background-color: var(--sGrey);
 }
 
 @media screen and (max-width: 450px) {
-    .navSpan {
-        display: none;
-    }
+  .navSpan {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .navCont {
-        padding: 0 1rem;
-    }
-    .navMenu {
-        display: block;
-        transition: all 500ms ease-in-out;
-    }
-    .menuActive {
-        transform: rotate(360deg);
-        opacity: 0;
-    }
-    .displayMenu {
-        transform: translateX(0) !important;
-        opacity: 1 !important;
-    }
-    .navUl {
-        background-color: rgba(0, 0, 0);
-        backdrop-filter: blur(5px);
-        position: fixed;
-        top: 3.5rem;
-        width: 100%;
-        left: 0;
-        transform: translateX(50rem);
-        transition: all 500ms ease-in-out;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 100vh;
-        font-size: 2rem;
-        gap: 2rem;
-        padding-top: 5rem;
-        opacity: 0;
-    }
-    .navLi {
-        width: 100%;
-        height: 5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .navCont {
+    padding: 0 1rem;
+  }
 
-    .navLi a {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-    }
+  .navMenu {
+    display: block;
+    transition: all 500ms ease-in-out;
+  }
+
+  .menuActive {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+
+  .displayMenu {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+
+  .navUl {
+    background-color: rgba(0, 0, 0);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 3.5rem;
+    width: 100%;
+    left: 0;
+    transform: translateX(50rem);
+    transition: all 500ms ease-in-out;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    font-size: 2rem;
+    gap: 2rem;
+    padding-top: 5rem;
+    opacity: 0;
+  }
+
+  .navLi {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navLi a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
