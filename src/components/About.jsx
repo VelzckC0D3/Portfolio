@@ -25,8 +25,9 @@ const About = () => (
 
           </div>
         </div>
-        <div className="aboutButtonCont" data-aos="fade-left" data-aos-delay="750" data-aos-duration="800">
-          <a className="aboutButton" href="#projects">my projects</a>
+        <div className="aboutButtonCont">
+          <a className="aboutButton" href="#projects" data-aos="fade-left" data-aos-delay="750" data-aos-duration="800">projects</a>
+          <a className="aboutButton" href="#contact" data-aos="fade-left" data-aos-delay="850" data-aos-duration="800">contact</a>
         </div>
       </div>
     </div>

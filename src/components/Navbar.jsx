@@ -45,10 +45,10 @@ const Navbar = () => {
           code.velzck &gt;
         </a>
         <ul className={`navUl ${isActive ? 'displayMenu' : ''}`}>
-          <li className="navLi"><a href="#home" onClick={menuActions}>home</a></li>
-          <li className="navLi"><a href="#about" onClick={menuActions}>about</a></li>
-          <li className="navLi"><a href="#projects" onClick={menuActions}>projects</a></li>
-          <li className="navLi"><a href="#contact" onClick={menuActions}>contact</a></li>
+          <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#home" onClick={menuActions}>home</a></li>
+          <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#about" onClick={menuActions}>about</a></li>
+          <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#projects" onClick={menuActions}>projects</a></li>
+          <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#contact" onClick={menuActions}>contact</a></li>
         </ul>
 
         {' '}

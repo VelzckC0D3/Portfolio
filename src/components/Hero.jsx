@@ -29,8 +29,9 @@ const Hero = () => {
       <div className="heroBG"> </div>
       <div className="hero">
         <div className="heroInfo">
-          <p className="heroTitle">
-            Hi there! My names is
+          <span className="heroTitle">Hi there!</span>
+          <p className="heroSub">
+            My names is
             {' '}
             <span className="heroSpan">Alejandro Velasquez</span>
           </p>

@@ -20,6 +20,20 @@
   }
 }
 
+@keyframes borderAnim {
+  0% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  50% {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  100% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+}
+
 .heroCont {
   padding-top: 3.5rem;
   color: white;
@@ -55,7 +69,7 @@
   height: 100%;
   width: 100%;
   background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 100%);
   padding: 1rem;
   text-align: center;
   display: flex;
@@ -77,8 +91,16 @@
 
 .heroTitle {
   opacity: 0;
+  font-size: 2em;
   animation: fadeIn 500ms ease-in-out forwards;
   animation-delay: 0.5s;
+}
+
+.heroSub {
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 500ms ease-in-out forwards;
+  animation-delay: 1s;
 }
 
 .heroSubTitle {
@@ -110,7 +132,7 @@
   border: 1px solid rgba(255, 255, 255);
   border-radius: 20px;
   opacity: 0;
-  animation: fadeIn 500ms ease-in-out forwards;
+  animation: fadeIn 500ms ease-in-out forwards, borderAnim 3000ms ease-in-out infinite;
   animation-delay: 1.5s;
   -webkit-text-stroke: 0.7px;
   margin-top: 2rem;

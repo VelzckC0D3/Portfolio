@@ -12,7 +12,7 @@
   height: 100dvh;
   width: 100%;
   background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(0deg,#000,hsl(0deg 0% 0% / 70%));
   backdrop-filter: blur(3px);
   border-bottom: 3px solid white;
 }
@@ -80,11 +80,12 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .aboutButton {
   bottom: 8rem;
-  margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.95);
   font-size: 1.5rem;
   color: white;
@@ -129,5 +130,6 @@
 
   .aboutButtonCont {
     position: inherit;
+    gap: 1rem;
   }
 }

@@ -42,15 +42,18 @@
   right: 1rem;
   color: white;
   opacity: 0;
+  user-select: none;
   transition: all 600ms ease-in-out;
 }
 
 .openMenu {
   opacity: 1;
+  user-select: none;
 }
 
 .closeMenu {
   opacity: 1;
+  user-select: none;
   transform: rotate(360deg);
   transition: all 600ms ease-in-out;
   width: 3rem;
@@ -75,23 +78,37 @@
 .navLi a {
   color: var(--sGrey);
   text-decoration: none;
-  transition: all 300ms ease-in-out;
+  transition: all 400ms ease-in-out;
   height: 100%;
   display: flex;
   align-items: center;
   padding: 0 8px;
 }
 
+.displayLi:nth-child(1) a {
+  transform: translateX(0);
+  transition-delay: 300ms;
+}
+
+.displayLi:nth-child(2) a {
+  transform: translateX(0);
+  transition-delay: 400ms;
+}
+
+.displayLi:nth-child(3) a {
+  transform: translateX(0);
+  transition-delay: 500ms;
+}
+
+.displayLi:nth-child(4) a {
+  transform: translateX(0);
+  transition-delay: 600ms;
+}
+
 .navLi a:hover {
   color: white;
   transition: all 90ms ease-in-out;
   background-color: var(--sGrey);
-}
-
-@media screen and (max-width: 450px) {
-  .navSpan {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -145,5 +162,12 @@
     height: 100%;
     display: flex;
     justify-content: center;
+    transform: translateX(30rem);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navSpan {
+    display: none;
   }
 }
