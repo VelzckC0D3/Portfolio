@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/Projects.css';
+import { FiLink, FiExternalLink } from 'react-icons/fi';
 import projects from '../logic/Projects';
 
 const Projects = () => (
@@ -11,15 +12,29 @@ const Projects = () => (
       <div className="projectCont">
         {projects.map((project) => (
           <div className="project" key={project.id} data-aos="fade-left" data-aos-delay="550" data-aos-duration="1000">
-            <div className="projectImg"> </div>
+            <div className="projectImg" style={{ backgroundImage: `url(${project.thumbnail})` }}> </div>
             <h2 className="projectTitle">{project.title}</h2>
             <p className="projectDesc">{project.description}</p>
             <ul className="projectTechs">
-              <li className="tech">{project.technologies[0]}</li>
-              <li className="tech">{project.technologies[1]}</li>
-              <li className="tech">{project.technologies[2]}</li>
-              <li className="tech">{project.technologies[3]}</li>
-              <li className="tech">{project.technologies[4]}</li>
+              {project.technologies.map((tech) => (
+                <li key={tech.id} className="tech">{tech}</li>
+              ))}
+            </ul>
+            <ul className="projectLinks">
+              <li className="projectLink">
+                <a href={project.repo} target="_blank" rel="noopener noreferrer">
+                  <FiLink className="linkIcon" />
+                  {' '}
+                  repository
+                </a>
+              </li>
+              <li className="projectLink">
+                <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                  <FiExternalLink className="linkIcon" />
+                  {' '}
+                  live demo
+                </a>
+              </li>
             </ul>
           </div>
         ))}
