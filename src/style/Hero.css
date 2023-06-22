@@ -20,7 +20,7 @@
   }
 }
 
-@keyframes borderAnim {
+@keyframes borderGlow {
   0% {
     border-color: rgba(255, 255, 255, 0);
   }
@@ -132,7 +132,7 @@
   border: 1px solid rgba(255, 255, 255);
   border-radius: 20px;
   opacity: 0;
-  animation: fadeIn 500ms ease-in-out forwards, borderAnim 3000ms ease-in-out infinite;
+  animation: fadeIn 500ms ease-in-out forwards, borderGlow 3000ms ease-in-out infinite;
   animation-delay: 1.5s;
   -webkit-text-stroke: 0.7px;
   margin-top: 2rem;

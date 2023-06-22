@@ -1,3 +1,7 @@
+:root {
+  color-scheme: dark;
+}
+
 *,
 *::before,
 *::after {
@@ -36,6 +40,6 @@ code {
   perspective: 10px;
 }
 
-.wrapper::-webkit-scrollbar {
+.wrapper::-webkit-scrollbar{
   display: none;
 }

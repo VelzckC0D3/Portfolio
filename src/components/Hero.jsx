@@ -36,7 +36,7 @@ const Hero = () => {
             <span className="heroSpan">Alejandro Velasquez</span>
           </p>
           <p className="heroSubTitle">
-            Front-End Web
+            Full-Stack Web
             {' '}
             <span className="heroSpan">Developer</span>
           </p>

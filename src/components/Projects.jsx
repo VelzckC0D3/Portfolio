@@ -14,26 +14,28 @@ const Projects = () => (
           <div className="project" key={project.id} data-aos="fade-left" data-aos-delay="550" data-aos-duration="1000">
             <div className="projectImg" style={{ backgroundImage: `url(${project.thumbnail})` }}> </div>
             <h2 className="projectTitle">{project.title}</h2>
-            <p className="projectDesc">{project.description}</p>
             <ul className="projectTechs">
               {project.technologies.map((tech) => (
                 <li key={tech.id} className="tech">{tech}</li>
               ))}
             </ul>
+            <p className="projectDesc">{project.description}</p>
             <ul className="projectLinks">
               <li className="projectLink">
-                <a href={project.repo} target="_blank" rel="noopener noreferrer">
+                <a className="link" href={project.repo} target="_blank" rel="noopener noreferrer">
                   <FiLink className="linkIcon" />
                   {' '}
                   repository
                 </a>
+                <div className="linkBefore"> </div>
               </li>
               <li className="projectLink">
-                <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                <a className="link" href={project.demo} target="_blank" rel="noopener noreferrer">
                   <FiExternalLink className="linkIcon" />
                   {' '}
                   live demo
                 </a>
+                <div className="linkBefore"> </div>
               </li>
             </ul>
           </div>
