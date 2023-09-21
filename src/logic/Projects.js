@@ -54,34 +54,6 @@ const projects = [
     thumbnail: '../assets/project_img/velzckshop.png',
     id: '6',
   },
-
-  {
-    title: 'Project 7',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam nisl nisl vitae aliquam nisl.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js'],
-    repo: 'repository',
-    demo: 'demo',
-    thumbnail: '../assets/project_img/velzckshop.png',
-    id: '7',
-  },
-  {
-    title: 'Project 8',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam nisl nisl vitae aliquam nisl.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js'],
-    repo: 'repository',
-    demo: 'demo',
-    thumbnail: '../assets/project_img/velzckshop.png',
-    id: '8',
-  },
-  {
-    title: 'Project 9',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam nisl nisl vitae aliquam nisl.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express', 'MongoDB'],
-    repo: 'repository',
-    demo: 'demo',
-    thumbnail: '../assets/project_img/velzckshop.png',
-    id: '9',
-  },
 ];
 
 export default projects;

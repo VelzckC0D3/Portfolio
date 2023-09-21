@@ -56,6 +56,8 @@
   opacity: 1;
   user-select: none;
   transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  will-change: transform;
   transition: all 600ms ease-in-out;
   width: 3rem;
   height: 3rem;
@@ -88,21 +90,29 @@
 
 .displayLi:nth-child(1) a {
   transform: translateX(0);
+  -webkit-transform: translateX(0);
+  will-change: transform;
   transition-delay: 300ms;
 }
 
 .displayLi:nth-child(2) a {
   transform: translateX(0);
+  -webkit-transform: translateX(0);
+  will-change: transform;
   transition-delay: 400ms;
 }
 
 .displayLi:nth-child(3) a {
   transform: translateX(0);
+  -webkit-transform: translateX(0);
+  will-change: transform;
   transition-delay: 500ms;
 }
 
 .displayLi:nth-child(4) a {
   transform: translateX(0);
+  -webkit-transform: translateX(0);
+  will-change: transform;
   transition-delay: 600ms;
 }
 
@@ -124,11 +134,15 @@
 
   .menuActive {
     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    will-change: transform;
     opacity: 0;
   }
 
   .displayMenu {
     transform: translateX(0) !important;
+    -webkit-transform: translateX(0) !important;
+    will-change: transform;
     opacity: 1 !important;
   }
 
@@ -140,6 +154,8 @@
     width: 100%;
     left: 0;
     transform: translateX(50rem);
+    -webkit-transform: translateX(50rem);
+    will-change: transform;
     transition: all 500ms ease-in-out;
     flex-direction: column;
     justify-content: flex-start;
@@ -164,6 +180,8 @@
     display: flex;
     justify-content: center;
     transform: translateX(30rem);
+    -webkit-transform: translateX(30rem);
+    will-change: transform;
   }
 }
 

@@ -1,12 +1,12 @@
 .contactCont {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-bottom: 3px solid rgba(255, 255, 255, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
 }
 
 .contactTitle {
-    color: white;
-    z-index: 0;
+  color: white;
+  z-index: 0;
 }

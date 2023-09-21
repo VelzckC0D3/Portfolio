@@ -46,14 +46,15 @@
   width: 15rem;
   height: 15rem;
   background-color: rgba(0, 0, 0, 0.6);
-  /* background gradient from rgb 0 255 13 to black 0deg*/
-  background: linear-gradient(
-    0deg,
-    rgba(0, 213, 11, 1) 0%,
-    rgba(0, 154, 7, 1) 17%,
-    rgba(0, 0, 0, 0) 83%
-  );
 
+  /* background gradient from rgb 0 255 13 to black 0deg */
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 213, 11, 1) 0%,
+      rgba(0, 154, 7, 1) 17%,
+      rgba(0, 0, 0, 0) 83%
+    );
   border-radius: 50%;
   opacity: 0.7;
   border: 3px solid white;
@@ -62,7 +63,7 @@
 .aboutImg {
   background-image: url(../assets/img/profileNoBg.webp);
   background-position: 62% 46%;
-  background-size: 125%;
+  background-size: 120%;
   background-repeat: no-repeat;
   padding: 1rem;
   width: 14.7rem;

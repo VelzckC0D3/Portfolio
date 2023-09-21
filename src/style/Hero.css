@@ -1,11 +1,15 @@
 @keyframes fadeIn {
   from {
     transform: translateX(1rem);
+    -webkit-transform: translateX(1rem);
+    will-change: transform;
     opacity: 0;
   }
 
   to {
     transform: translateX(0);
+    -webkit-transform: translateX(0);
+    will-change: transform;
     opacity: 1;
   }
 }
@@ -54,6 +58,8 @@
   z-index: -3;
   position: absolute;
   transform: translateZ(-30px) scale(8);
+  -webkit-transform: translateZ(-30px) scale(8);
+  will-change: transform;
 }
 
 .heroBG::before {
@@ -86,6 +92,8 @@
   align-items: center;
   width: 100%;
   transform: translateY(-3rem);
+  -webkit-transform: translateY(-3rem);
+  will-change: transform;
   font-size: 1.5rem;
 }
 
@@ -127,6 +135,8 @@
   color: var(--unselected);
   text-decoration: none;
   text-transform: lowercase;
+  -webkit-text-transform: lowercase;
+  will-change: transform;
   transition: all 600ms ease-in-out;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid rgba(255, 255, 255);
@@ -155,28 +165,28 @@
   color: rgb(192, 192, 192);
   font-size: 2rem;
   opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .heroIconsLi a:hover {
   color: white;
+  background-color: red;
+}
+
+.github {
+  animation: fadeInIcon 500ms ease-in-out forwards;
+  animation-delay: 1.9s;
+}
+
+
+.mail {
+  animation: fadeInIcon 500ms ease-in-out forwards;
+  animation-delay: 1.8s;
 }
 
 .linkedin {
   animation: fadeInIcon 500ms ease-in-out forwards;
   animation-delay: 1.7s;
-}
-
-.github {
-  animation: fadeInIcon 500ms ease-in-out forwards;
-  animation-delay: 1.8s;
-}
-
-.twitter {
-  animation: fadeInIcon 500ms ease-in-out forwards;
-  animation-delay: 1.9s;
-}
-
-.mail {
-  animation: fadeInIcon 500ms ease-in-out forwards;
-  animation-delay: 2s;
 }

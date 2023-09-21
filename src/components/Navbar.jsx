@@ -37,12 +37,7 @@ const Navbar = () => {
     <>
       <nav className="navCont">
         <a className="navTitle" href=" ">
-          {' '}
-          &lt;
-          {' '}
-          <span className="navSpan">console.log //</span>
-          {' '}
-          code.velzck &gt;
+          velasquez dev
         </a>
         <ul className={`navUl ${isActive ? 'displayMenu' : ''}`}>
           <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#home" onClick={menuActions}>home</a></li>

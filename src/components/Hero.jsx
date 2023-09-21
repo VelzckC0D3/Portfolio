@@ -3,7 +3,6 @@ import '../style/Hero.css';
 import {
   AiFillLinkedin,
   AiOutlineGithub,
-  AiFillTwitterCircle,
 } from 'react-icons/ai';
 import { GoMail } from 'react-icons/go';
 import AOS from 'aos';
@@ -59,6 +58,17 @@ const Hero = () => {
             </li>
             <li className="heroIconsLi">
               <a
+                href="mailto:alejandro.velzck@gmail.com"
+                className="mail"
+                title="e-mail"
+              >
+                <GoMail />
+                {' '}
+              </a>
+              {' '}
+            </li>
+            <li className="heroIconsLi">
+              <a
                 href="https://www.linkedin.com/in/velzckcode/"
                 className="github"
                 target="_blank"
@@ -66,30 +76,6 @@ const Hero = () => {
                 title="Linkedin"
               >
                 <AiFillLinkedin />
-                {' '}
-              </a>
-              {' '}
-            </li>
-            <li className="heroIconsLi">
-              <a
-                href="https://twitter.com/velzck"
-                className="twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Twitter"
-              >
-                <AiFillTwitterCircle />
-                {' '}
-              </a>
-              {' '}
-            </li>
-            <li className="heroIconsLi">
-              <a
-                href="mailto:someone@yoursite.com"
-                className="mail"
-                title="e-mail"
-              >
-                <GoMail />
                 {' '}
               </a>
               {' '}
