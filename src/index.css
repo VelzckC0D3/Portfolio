@@ -1,6 +1,18 @@
+
+@keyframes fadeInBg {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+/* stylelint-disable */
 :root {
   color-scheme: dark;
 }
+/* stylelint-enable */
 
 *,
 *::before,
@@ -34,10 +46,18 @@ code {
 }
 
 .wrapper {
+  /* stylelint-disable */
   height: 100dvh;
+  /* stylelint-enable */
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
+}
+
+.navCont,
+.wrapper {
+  opacity: 0;
+  animation: fadeInBg 2s ease-in-out forwards;
 }
 
 .wrapper::-webkit-scrollbar {

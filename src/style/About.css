@@ -1,5 +1,7 @@
 .aboutCont {
+  /* stylelint-disable */
   height: 100dvh;
+  /* stylelint-enable */
   color: white;
   display: flex;
   flex-direction: column;
@@ -9,7 +11,9 @@
 
 .aboutBG {
   position: absolute;
+  /* stylelint-disable */
   height: 100dvh;
+  /* stylelint-enable */
   width: 100%;
   background: rgb(0, 0, 0);
   background: linear-gradient(0deg, #000, hsl(0deg 0% 0% / 70%));
@@ -45,9 +49,6 @@
 .aboutImgCont {
   width: 15rem;
   height: 15rem;
-  background-color: rgba(0, 0, 0, 0.6);
-
-  /* background gradient from rgb 0 255 13 to black 0deg */
   background:
     linear-gradient(
       0deg,

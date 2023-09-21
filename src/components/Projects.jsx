@@ -12,7 +12,7 @@ const Projects = () => (
       <div className="projectCont">
         {projects.map((project) => (
           <div className="project" key={project.id} data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
-            <div className="projectTest">
+            <div className={`projectSubCont ${project.id}`}>
               <div className="projectImg" style={{ backgroundImage: `url(${project.thumbnail})` }} />
               <h2 className="projectTitle">{project.title}</h2>
               <ul className="projectTechs">
