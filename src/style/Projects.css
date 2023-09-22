@@ -159,13 +159,19 @@
   gap: 1rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
+  backdrop-filter: blur(2px);
+  transform: translateY(-2rem);
+  -webkit-transform: translateY(-2rem);
+  background-color: rgba(255, 255, 255, 0.041);
+  transition: all 0.5s ease-in-out;
 }
 
 .projectLink {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out, transform 0.0001s ease-in-out;
-  transform: translateY(10rem);
-  -webkit-transform: translateY(10rem);
+  opacity: 0.9;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-0.5rem);
+  -webkit-transform: translateY(-0.5rem);
+  filter: invert(1);
   will-change: transform;
 }
 
@@ -226,11 +232,16 @@
   opacity: 1;
 }
 
+.projectSubCont:hover .projectLinks {
+  background-color: rgba(255, 255, 255, 0);
+}
+
 .projectSubCont:hover .projectLink {
-  transition-delay: 0.6s;
-  transform: translateY(0);
-  -webkit-transform: translateY(0);
+  transform: translateY(1rem);
+  -webkit-transform: translateY(1rem);
   will-change: transform;
+  filter: invert(0);
+  opacity: 1;
 }
 
 @media screen and (min-width: 1350px) {

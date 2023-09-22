@@ -48,7 +48,7 @@ const projects = [
   {
     title: 'Project 6',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam nisl nisl vitae aliquam nisl.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
     repo: 'repository',
     demo: 'demo',
     thumbnail: '../assets/project_img/velzckshop.png',

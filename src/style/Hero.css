@@ -126,6 +126,32 @@
   -webkit-text-stroke: 0.7px;
 }
 
+.heroTest {
+  opacity: 0;
+  animation: fadeIn 500ms ease-in-out forwards;
+  animation-delay: 1.5s;
+  max-width: 20rem;
+  height: 10rem;
+}
+
+.swiper {
+  height: 100%;
+  user-select: none;
+  cursor: grab;
+}
+
+.swiper:active {
+  cursor: grabbing;
+}
+
+.swiper-slide {
+  height: 100%;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .heroButton {
   font-size: 1.5rem;
   display: flex;
@@ -145,7 +171,7 @@
   border-radius: 20px;
   opacity: 0;
   animation: fadeIn 500ms ease-in-out forwards, borderGlow 3000ms ease-in-out infinite;
-  animation-delay: 1.5s;
+  animation-delay: 1.8s;
   -webkit-text-stroke: 0.7px;
   margin-top: 2rem;
 }
@@ -195,15 +221,15 @@
 
 .github {
   animation: fadeInIcon 500ms ease-in-out forwards;
-  animation-delay: 1.9s;
+  animation-delay: 2.2s;
 }
 
 .mail {
   animation: fadeInIcon 500ms ease-in-out forwards;
-  animation-delay: 1.8s;
+  animation-delay: 2.1s;
 }
 
 .linkedin {
   animation: fadeInIcon 500ms ease-in-out forwards;
-  animation-delay: 1.7s;
+  animation-delay: 2s;
 }
