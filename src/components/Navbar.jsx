@@ -40,8 +40,8 @@ const Navbar = () => {
           velasquez dev
         </a>
         <ul className={`navUl ${isActive ? 'displayMenu' : ''}`}>
-          <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#home" onClick={menuActions}>home</a></li>
           <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#about" onClick={menuActions}>about</a></li>
+          <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#experience" onClick={menuActions}>experience</a></li>
           <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#projects" onClick={menuActions}>projects</a></li>
           <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#contact" onClick={menuActions}>contact</a></li>
         </ul>

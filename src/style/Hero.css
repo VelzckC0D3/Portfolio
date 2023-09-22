@@ -61,7 +61,7 @@
   -webkit-transform: translateZ(-30px) scale(8);
   will-change: transform;
   opacity: 0;
-  animation: fadeInBg 5s ease-in-out forwards 0.35s;
+  animation: fadeInBg 3s ease-in-out forwards 0.15s;
 }
 
 .heroBG::before {
@@ -76,8 +76,9 @@
 .hero {
   height: 100%;
   width: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 100%);
+
+  /*   background: rgba(0, 0, 0, 0.336);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 100%); */
   padding: 1rem;
   text-align: center;
   display: flex;
@@ -171,7 +172,7 @@
   border-radius: 20px;
   opacity: 0;
   animation: fadeIn 500ms ease-in-out forwards, borderGlow 3000ms ease-in-out infinite;
-  animation-delay: 1.8s;
+  animation-delay: 1.5s;
   -webkit-text-stroke: 0.7px;
   margin-top: 2rem;
 }

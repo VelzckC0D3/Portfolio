@@ -7,7 +7,7 @@ const Projects = () => (
   <>
     <div className="projectsCont" id="projects">
       <div className="projectsDescCont">
-        <p className="projectsDesc" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000"> Here you can check some of my recent projects </p>
+        <p className="projectsDesc" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000"> most recent projects </p>
       </div>
       <div className="projectCont">
         {projects.map((project) => (

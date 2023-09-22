@@ -10,7 +10,7 @@ const projects = [
     id: '1',
   },
   {
-    title: 'Velzck Festival',
+    title: 'Conference Landing Page',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam nisl nisl vitae aliquam nisl.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'DOM'],
     repo: 'https://github.com/VelzckC0D3/Velzck_Festival',

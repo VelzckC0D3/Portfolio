@@ -1,0 +1,49 @@
+.experienceCont {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.experienceTitle {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.experienceTitle h2 {
+  font-size: 2rem;
+}
+
+.experienceTitle h3 {
+  color: grey;
+  font-size: 1.5rem;
+}
+
+.timeLine {
+  /*     background-color: red; */
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.timeLine::-webkit-scrollbar {
+  display: none;
+}
+
+.divider {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  z-index: 4;
+}
+
+@media (min-width: 768px) {
+  .timeLine {
+    padding: 0 4rem;
+  }
+}

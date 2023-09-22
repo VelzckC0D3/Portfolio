@@ -32,16 +32,16 @@ const Hero = () => {
       <div className="heroBG"> </div>
       <div className="hero">
         <div className="heroInfo">
-          <span className="heroTitle">Hi there!</span>
+          <span className="heroTitle">hi there!</span>
           <p className="heroSub">
-            My names is
+            my names is
             {' '}
             <span className="heroSpan">Alejandro Velasquez</span>
           </p>
           <p className="heroSubTitle">
-            Full-Stack Web
+            full-stack Web
             {' '}
-            <span className="heroSpan">Developer</span>
+            <span className="heroSpan">developer</span>
           </p>
 
           <a href="#about" className="heroButton" type="button">

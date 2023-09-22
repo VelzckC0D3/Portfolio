@@ -27,10 +27,10 @@ const About = () => (
         </div>
         <div className="aboutButtonCont">
           <div className="buttonCont" data-aos="fade-left" data-aos-delay="750" data-aos-duration="800">
-            <a className="aboutButton" href="#projects">projects</a>
+            <a className="aboutButton" href="#experience">experience</a>
           </div>
           <div className="buttonCont" data-aos="fade-left" data-aos-delay="850" data-aos-duration="800">
-            <a className="aboutButton" href="#contact">contact</a>
+            <a className="aboutButton" href="#projects">projects</a>
           </div>
         </div>
       </div>
