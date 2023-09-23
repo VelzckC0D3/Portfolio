@@ -266,7 +266,6 @@
   filter: blur(15px);
   opacity: 0;
   transform: translateY(1.25rem) scale(1.5);
-  transition: all 0.2s ease-in-out;
 }
 
 .projectSubCont:hover .projectLink {
