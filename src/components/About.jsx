@@ -8,20 +8,24 @@ const About = () => (
       <div className="about">
         <div className="aboutMain">
           <h2 className="aboutTitle" data-aos="fade-left" data-aos-duration="1000">about me</h2>
+          {/* <h3 className="aboutSub" data-aos="fade-left" data-aos-duration="1000">
+          full-stack web developer</h3> */}
           <div className="aboutImgCont" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
             <div className="aboutImg" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"> </div>
           </div>
         </div>
         <div className="aboutInfo">
           <div className="aboutDesc" data-aos="fade-left" data-aos-delay="550" data-aos-duration="1000">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, accusamus autem est
-            omnis quod.
-            {' '}
+            full-stack developer with a strong focus on front-end, Agile
+            development environments, emphasizing effective communication and collaboration.
+            <br />
             <span className="aboutSpan">React & Redux</span>
             {', '}
-            <span className="aboutSpan">CSS Frameworks & Pre-Processors</span>
+            <span className="aboutSpan">Ruby on Rails</span>
+            {', '}
+            <span className="aboutSpan">Databases</span>
             {' & '}
-            <span className="aboutSpan">API Management</span>
+            <span className="aboutSpan">Testing</span>
 
           </div>
         </div>

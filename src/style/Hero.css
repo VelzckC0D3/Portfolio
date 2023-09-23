@@ -55,7 +55,7 @@
   background-position: 0% 50%;
   width: 100%;
   height: 100%;
-  z-index: -3;
+  z-index: -5;
   position: absolute;
   transform: translateZ(-30px) scale(8);
   -webkit-transform: translateZ(-30px) scale(8);
@@ -68,23 +68,21 @@
   content: '';
   width: 100%;
   height: 100%;
-  background: rgb(0, 0, 0);
+  box-shadow: 0 0 100px 100px rgb(0 0 0 / 93%);
   background: linear-gradient(0deg, rgba(0, 0, 0, 1) 13%, rgba(255, 255, 255, 0) 100%);
   position: absolute;
+  z-index: -3;
 }
 
 .hero {
   height: 100%;
   width: 100%;
-
-  /*   background: rgba(0, 0, 0, 0.336);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 100%); */
   padding: 1rem;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   backdrop-filter: blur(2px);
 }
 
@@ -125,14 +123,6 @@
   color: rgb(0, 255, 13);
   white-space: nowrap;
   -webkit-text-stroke: 0.7px;
-}
-
-.heroTest {
-  opacity: 0;
-  animation: fadeIn 500ms ease-in-out forwards;
-  animation-delay: 1.5s;
-  max-width: 20rem;
-  height: 10rem;
 }
 
 .swiper {

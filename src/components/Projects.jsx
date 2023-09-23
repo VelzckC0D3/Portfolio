@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/Projects.css';
 import { FiLink, FiExternalLink } from 'react-icons/fi';
-import projects from '../logic/Projects';
+import projects from '../logic/Portfolio';
 
 const Projects = () => (
   <>

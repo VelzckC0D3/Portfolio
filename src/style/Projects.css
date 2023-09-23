@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 3px solid white;
+  object-fit: cover;
 }
 
 .projectsDescCont {
@@ -41,17 +43,19 @@
   overflow: hidden;
   background-color: rgba(77, 77, 77, 0.35);
   border-radius: 0 0 22px 22px;
+  border: 2px solid rgba(65, 65, 65, 0.288);
 }
 
 .projectSubCont {
-  border-radius: 16px;
-  border-bottom: 3px solid black;
+  border-radius: 0 0 16px 16px;
+
+  /*   border: 3px solid black; */
   height: 22rem;
   max-width: 27rem;
 }
 
 .projectSubCont:hover {
-  border-color: rgb(255, 255, 255);
+  /*   border-color: rgb(255, 255, 255); */
   transition: border-color 0.5s ease-in-out;
   transition-delay: 0ms !important;
 }
@@ -117,6 +121,7 @@
   width: 100%;
   text-align: center;
   border-radius: 15px 15px 0 0;
+  text-transform: lowercase;
 }
 
 .projectTechs {
@@ -189,11 +194,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateY(1.25rem) scale(1.1);
+  transform: translateY(1.25rem) scale(1.2);
   transition: all 0.5s ease-in-out;
   border-radius: 5px;
   border-bottom: 1px solid white;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .projectLink a {
@@ -260,7 +265,7 @@
 .projectSubCont:hover .projectLinks::before {
   filter: blur(15px);
   opacity: 0;
-  transform: translateY(-5rem) scale(1.5);
+  transform: translateY(1.25rem) scale(1.5);
   transition: all 0.2s ease-in-out;
 }
 

@@ -51,7 +51,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
     repo: 'repository',
     demo: 'demo',
-    thumbnail: '../assets/project_img/velzckshop.png',
+    thumbnail: '',
     id: '6',
   },
 ];

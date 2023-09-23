@@ -36,9 +36,9 @@ const CertificationsTimeLine = () => (
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
-        iconStyle={{ transform: 'scale(0.9)', background: 'rgb(39 39 39)', color: '#fff' }}
-        icon={<SiOpenbadges />}
+        iconStyle={{ opacity: '0', transform: 'scale(0.9)', animation: 'none' }}
       />
+
     </VerticalTimeline>
   </>
 );

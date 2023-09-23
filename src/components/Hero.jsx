@@ -7,10 +7,6 @@ import {
 import { GoMail } from 'react-icons/go';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-/* import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper';
-import 'swiper/css';
-import 'swiper/css/autoplay'; */
 
 const Hero = () => {
   useEffect(() => {
@@ -86,43 +82,6 @@ const Hero = () => {
               {' '}
             </li>
           </ul>
-          {/* <div className="heroTest">
-            <Swiper
-              breakpoints={{
-                0: {
-                  slidesPerView: 1,
-                  spaceBetween: 100,
-                },
-                400: {
-                  slidesPerView: 2,
-                  spaceBetween: 10,
-                },
-                800: {
-                  slidesPerView: 3,
-                  spaceBetween: 10,
-                },
-              }}
-              spaceBetween={30}
-              loop
-              pagination={{
-                clickable: true,
-              }}
-              navigation
-              autoplay={{ delay: 2500, disableOnInteraction: false }}
-              modules={[Autoplay]}
-              className="mySwiper"
-            >
-              <SwiperSlide>Slide 1</SwiperSlide>
-              <SwiperSlide>Slide 2</SwiperSlide>
-              <SwiperSlide>Slide 3</SwiperSlide>
-              <SwiperSlide>Slide 4</SwiperSlide>
-              <SwiperSlide>Slide 5</SwiperSlide>
-              <SwiperSlide>Slide 6</SwiperSlide>
-              <SwiperSlide>Slide 7</SwiperSlide>
-              <SwiperSlide>Slide 8</SwiperSlide>
-              <SwiperSlide>Slide 9</SwiperSlide>
-            </Swiper>
-          </div> */}
         </div>
       </div>
     </div>

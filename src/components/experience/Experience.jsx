@@ -8,13 +8,13 @@ const Experience = () => (
     <div className="experienceTitle" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
       <p>experience</p>
     </div>
-    <div className="timeLine" data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">
+    <div className="timeLine">
       <ExperienceTimeLine />
     </div>
     <div className="experienceTitle" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
       <p>certifications</p>
     </div>
-    <div className="timeLine" data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">
+    <div className="timeLine">
       <CertificationsTimeLine />
     </div>
     <div className="divider" />
