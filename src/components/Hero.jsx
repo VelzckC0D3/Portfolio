@@ -13,7 +13,7 @@ const Hero = () => {
     const wrapper = document.querySelector('.wrapper');
 
     const handleScroll = () => {
-      AOS.init({ once: true });
+      AOS.init({ });
     };
 
     wrapper.addEventListener('scroll', handleScroll);
