@@ -88,7 +88,7 @@
 }
 
 .aboutSpan {
-  color: rgb(0, 255, 13);
+  animation: glow 2s infinite;
   white-space: nowrap;
   -webkit-text-stroke: 0.7px;
 }

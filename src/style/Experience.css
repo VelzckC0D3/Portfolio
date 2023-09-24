@@ -39,10 +39,10 @@
 }
 
 .timeline-name {
-  color: rgb(30, 255, 0);
   font-size: 0.9rem;
   padding: 0 !important;
   margin: 0 !important;
+  animation: glow 2s infinite;
 }
 
 .vertical-timeline-element-subtitle {

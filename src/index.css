@@ -8,6 +8,21 @@
     opacity: 1;
   }
 }
+
+@keyframes glow {
+  0% {
+    color: rgba(0, 255, 0, 0.5);
+  }
+
+  50% {
+    color: rgb(0, 255, 0);
+  }
+
+  100% {
+    color: rgba(0, 255, 0, 0.5);
+  }
+}
+
 /* stylelint-disable */
 :root {
   color-scheme: dark;
