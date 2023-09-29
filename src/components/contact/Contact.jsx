@@ -16,7 +16,6 @@ const Contact = () => (
             <p>let&rsquo;s get in touch</p>
           </div>
           <ContactForm />
-          <p>my social medias</p>
         </div>
       </div>
 

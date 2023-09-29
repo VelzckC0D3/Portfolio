@@ -173,6 +173,15 @@
   border: 1px solid rgb(0, 0, 0);
 }
 
+.resumeButton {
+  position: absolute;
+  right: 0;
+  transform: rotate(90deg) translateY(-5rem) translateX(-5rem) !important;
+  animation: none !important;
+  opacity: 1;
+  border-radius: 0 !important;
+}
+
 .heroIcons {
   list-style: none;
   display: flex;

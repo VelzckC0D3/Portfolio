@@ -8,9 +8,6 @@ const About = () => (
       <div className="about">
         <div className="aboutMain">
           <h2 className="aboutTitle" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000">about me</h2>
-          {/* <h3 className="aboutSub" data-aos-once="true" data-aos="fade-left"
-          data-aos-duration="1000">
-          full-stack web developer</h3> */}
           <div className="aboutImgCont" data-aos-once="true" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
             <div className="aboutImg" data-aos-once="true" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"> </div>
           </div>
@@ -38,6 +35,9 @@ const About = () => (
             <a className="aboutButton" href="#projects">projects</a>
           </div>
         </div>
+        <a className="heroButton resumeButton" href="https://drive.google.com/file/d/1kqrOK6Lqj2zYaN1OaJRAt04Nz0lsP-TI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          resume
+        </a>
       </div>
     </div>
   </>

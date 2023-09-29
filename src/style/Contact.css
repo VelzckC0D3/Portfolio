@@ -53,7 +53,7 @@
   width: 100%;
   height: 100%;
   transform: translateY(-3.7rem);
-  background: linear-gradient(190deg, rgb(0 0 0) 0%, rgb(0 0 0 / 25%) 100%);
+  background: linear-gradient(190deg, rgb(0 0 0) 20%, rgb(0 0 0 / 25%) 100%);
   z-index: -3;
 }
 
@@ -95,7 +95,6 @@
 .formHeader {
   width: 100%;
   padding: 0.5rem;
-  text-align: center;
 }
 
 .contactText {
@@ -109,6 +108,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding-bottom: 1rem;
 }
 
 .formInput {
@@ -138,7 +138,7 @@
 
 .formInput:focus::placeholder {
   transition: all 200ms ease-in-out;
-  color: #18c502;
+  color: rgba(0, 0, 0, 0);
 }
 
 .form textarea {
