@@ -20,7 +20,7 @@ const Contact = () => (
       </div>
 
       <div className="contactTitle">
-        <p>2023 | Alejandro Velasquez | Medellin, Colombia</p>
+        <p>2023 | Alejandro Velasquez</p>
       </div>
     </div>
   </div>
