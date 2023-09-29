@@ -9,9 +9,11 @@ const ContactForm = () => {
 
     emailjs.sendForm('service_b365vfw', 'template_utf004l', form.current, 'ksgEozaWOPc2jZiop')
       .then((result) => {
-        console.log(result.text);
+        const { status } = result;
+        return status;
       }, (error) => {
-        console.log(error.text);
+        const { status } = error;
+        return status;
       });
   };
 
