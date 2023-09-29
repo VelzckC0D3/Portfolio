@@ -5,17 +5,23 @@ import ContactForm from './ContactForm';
 const Contact = () => (
   <div className="contactCont">
     <div className="contact" id="contact">
-      <div className="contactTitle" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" data-aos-once="true">
+      <div className="contactTitle" data-aos="fade-left" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true">
         <p>contact</p>
       </div>
+
       <div className="contactFormCont">
-        <div className="contactForm" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" data-aos-once="true">
+        <div className="contactForm" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000" data-aos-once="true">
           <div className="formHeader">
-            <p>let&rsquo;s collaborate</p>
-            <p className="contactText">to develop an amazing product!</p>
+            <p className="contactText">we can develop an amazing product!</p>
+            <p>let&rsquo;s get in touch</p>
           </div>
           <ContactForm />
+          <p>my social medias</p>
         </div>
+      </div>
+
+      <div className="contactTitle">
+        <p>all rights reserved</p>
       </div>
     </div>
   </div>

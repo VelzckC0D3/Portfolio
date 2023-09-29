@@ -32,7 +32,6 @@
   flex-direction: column;
   padding-top: 3.5rem;
   align-items: center;
-  border-top: 3px solid white;
 }
 
 .contact::before {
@@ -40,20 +39,21 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  transform: translateY(-3rem);
+  transform: translateY(-3.7rem) scaleY(-1);
   background-image: url(../assets/img/contactBg3.webp);
   filter: invert(1) saturate(0) contrast(1);
   background-size: cover;
-  z-index: -3;
+  z-index: -4;
 }
 
 .contact::after {
   content: "";
+  border-top: 3px solid white;
   position: absolute;
   width: 100%;
   height: 100%;
-  transform: translateY(-3rem);
-  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.575) 100%);
+  transform: translateY(-3.7rem);
+  background: linear-gradient(190deg, rgb(0 0 0) 0%, rgb(0 0 0 / 25%) 100%);
   z-index: -3;
 }
 
@@ -61,10 +61,11 @@
   color: white;
   background-color: black;
   width: 100%;
-  height: 5rem;
+  height: 5.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0.5rem;
 }
 
 .contactFormCont {
@@ -85,18 +86,21 @@
   align-items: center;
   gap: 1.5rem;
   border-radius: 31px;
-  background: linear-gradient(0deg, #ffffff12, #0000000f);
+  background: linear-gradient(0deg, #ffffff09, #000000bd);
   border: 2px solid rgb(41, 41, 41);
-  box-shadow: 18px 18px 36px #000, -18px -18px 36px #000;
+  box-shadow: 18px 18px 36px #00000060, -18px -18px 36px #00000060;
   backdrop-filter: blur(4px);
 }
 
 .formHeader {
   width: 100%;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .contactText {
   animation: glow 3s ease-in-out infinite;
+  font-size: 1.3rem;
 }
 
 .form {
@@ -115,16 +119,35 @@
   width: 100%;
   border-bottom: 1px solid white;
   outline: none;
+  font-size: 1.3rem;
+  -webkit-text-stroke: 0.2px black;
+  resize: none;
+  transition: all 500ms ease-in-out;
+}
+
+.formInput:focus {
+  border-bottom: 1px solid #1eff00;
+  transition: all 200ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .formInput::placeholder {
-  color: white;
+  transition: all 500ms ease-in-out;
+  color: rgba(255, 255, 255, 0.753);
+}
+
+.formInput:focus::placeholder {
+  transition: all 200ms ease-in-out;
+  color: #18c502;
+}
+
+.form textarea {
+  height: 8rem;
 }
 
 @keyframes glow {
   0% {
     color: rgba(0, 255, 0, 0.5);
-    -webkit-text-stroke: 0;
   }
 
   50% {
@@ -146,15 +169,19 @@
   justify-content: center;
   color: var(--unselected);
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.048);
+  background-color: rgba(0, 0, 0, 0.589);
   outline: none;
   border: none;
   border-bottom: 1px solid white;
   border-radius: 7px;
   margin-top: 2rem;
   cursor: pointer;
+  transition: all 500ms ease-in-out;
 }
 
 .submitButton:hover {
-  background-color: rgb(36, 36, 36);
+  color: #1eff00;
+  border-color: #1eff00;
+  background-color: black;
+  transition: all 200ms ease-in-out;
 }

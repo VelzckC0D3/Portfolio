@@ -5,30 +5,7 @@
   align-items: center;
   object-fit: cover;
 
-  /*   background-image: url(../assets/img/bg.webp);
-  background-size: 100%; */
-  backdrop-filter: opacity(0);
-}
-
-.projectsCont::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/img/contactBg3.webp);
-  filter: invert(1) saturate(0) contrast(1.5);
-  transform: scaleY(-1) scaleX(-1);
-  background-size: cover;
-  z-index: -3;
-}
-
-.projectsCont::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(181deg, rgb(0, 0, 0) -50%, rgb(0 0 0 / 53%) 100%);
-  z-index: -2;
+  /*   backdrop-filter: opacity(0); */
 }
 
 .projectsDescCont {

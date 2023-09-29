@@ -19,9 +19,9 @@ const ContactForm = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className="form">
-      <input className="formInput" type="text" name="from_name" placeholder="name" />
-      <input className="formInput" type="email" name="from_email" placeholder="email" />
-      <textarea className="formInput" name="message" placeholder="message" />
+      <input className="formInput" type="text" name="from_name" placeholder="name" required="true" />
+      <input className="formInput" type="email" name="from_email" placeholder="email" required="true" />
+      <textarea className="formInput" name="message" placeholder="message" required="true" />
       <input className="submitButton" type="submit" value="contact" />
     </form>
   );
