@@ -11,6 +11,9 @@ const ContactForm = () => {
 
     emailjs.sendForm('service_b365vfw', 'template_utf004l', form.current, 'ksgEozaWOPc2jZiop')
       .then((result) => {
+        form.current.reset();
+        alert('Message sent successfully');
+
         const { status } = result;
         return status;
       }, (error) => {

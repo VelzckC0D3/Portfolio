@@ -121,6 +121,7 @@
 }
 
 .aboutButton:hover {
+  transition: all 200ms ease-in-out !important;
   background-color: white;
   color: black;
 }

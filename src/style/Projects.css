@@ -69,6 +69,7 @@
   z-index: -1;
   transition: 0.8s ease-in-out;
   border-radius: 0 0 22px 22px;
+  filter: saturate(0.8);
 }
 
 .projectImg::after {
