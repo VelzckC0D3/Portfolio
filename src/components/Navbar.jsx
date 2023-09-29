@@ -37,7 +37,7 @@ const Navbar = () => {
     <>
       <nav className="navCont">
         <a className="navTitle" href=" ">
-          Alejandro Velasquez Dev
+          Velasquez Dev
         </a>
         <ul className={`navUl ${isActive ? 'displayMenu' : ''}`}>
           <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#about" onClick={menuActions}>about</a></li>

@@ -41,6 +41,10 @@ const CertificationsTimeLine = () => (
         </p>
       </VerticalTimelineElement>
 
+      <VerticalTimelineElement
+        iconStyle={{ display: 'none' }}
+      />
+
     </VerticalTimeline>
   </>
 );
