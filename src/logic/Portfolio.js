@@ -38,7 +38,7 @@ const projects = [
   },
   {
     title: 'Conference Landing Page',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam nisl nisl vitae aliquam nisl.',
+    description: 'Simple yet solid landing page for a conference, showcasing a responsive & addaptative design.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'DOM'],
     repo: 'https://github.com/VelzckC0D3/Velzck_Festival',
     demo: 'https://velzck-festival.netlify.app/index.html',
@@ -47,7 +47,7 @@ const projects = [
   },
   {
     title: 'Math Magicians',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl ultricies nunc, vitae aliquam nisl nisl vitae aliquam nisl.',
+    description: 'Mathematics web application that allows the user to make simple calculations, showcasing a responsive & addaptative design.',
     technologies: ['React', 'CSS', 'ES6', 'API'],
     repo: 'https://github.com/VelzckC0D3/math_magicians_react',
     demo: 'https://velzck-magician.netlify.app/',

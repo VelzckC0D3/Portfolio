@@ -20,7 +20,7 @@ const Contact = () => (
       </div>
 
       <div className="contactTitle">
-        <p>all rights reserved</p>
+        <p>2023 | Alejandro Velasquez | Medellin, Colombia</p>
       </div>
     </div>
   </div>
