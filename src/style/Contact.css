@@ -41,7 +41,7 @@
   height: 100%;
   transform: translateY(-3.7rem) scaleY(-1);
   background-image: url(../assets/img/contactBg3.webp);
-  filter: invert(1) saturate(0) contrast(1);
+  filter: invert(1) saturate(0) contrast(1.2) brightness(1) blur(3px);
   background-size: cover;
   z-index: -4;
 }

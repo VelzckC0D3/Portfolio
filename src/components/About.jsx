@@ -35,9 +35,9 @@ const About = () => (
             <a className="aboutButton" href="#projects">projects</a>
           </div>
         </div>
-        <a className="heroButton resumeButton" href="https://drive.google.com/file/d/1kqrOK6Lqj2zYaN1OaJRAt04Nz0lsP-TI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-          resume
-        </a>
+        <div data-aos-once="true" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000" className="resumeButton">
+          <a href="https://drive.google.com/file/d/1kqrOK6Lqj2zYaN1OaJRAt04Nz0lsP-TI/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
+        </div>
       </div>
     </div>
   </>

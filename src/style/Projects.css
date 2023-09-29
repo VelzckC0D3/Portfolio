@@ -136,7 +136,7 @@
   cursor: default;
   width: 100%;
   overflow: hidden;
-  gap: 1px;
+  gap: 0 1px;
 }
 
 .projectDesc {
@@ -153,6 +153,7 @@
 .tech {
   background-color: transparent;
   padding: 5px 10px;
+  margin-top: -0.8rem;
 }
 
 .projectLinks {
