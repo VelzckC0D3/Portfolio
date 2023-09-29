@@ -1,70 +1,171 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+<div align="center">
+  <img src="https://github.com/VelzckC0D3/SQL_Database/assets/92229666/64c8d8a7-b625-4a25-847a-ea02e00df2f4" alt="Sin título-1">
+</div>
+<!-- TABLE OF CONTENTS -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Deployment](#deployment)
+- [👥 Author](#author)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
-In the project directory, you can run:
+<!-- PROJECT DESCRIPTION -->
 
-### `npm start`
+# 📖 [Portfolio] `React` <a name="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div align="center">
+  
+![portfoliomockup](https://github.com/VelzckC0D3/VelzckC0D3_Portfolio/assets/92229666/59b54974-ad04-4490-963a-b1b4c502d2c8)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</div>
 
-### `npm test`
+This is my personal portfolio developed with React, here you're going to be able to check some of my projects, my CV, and some general information about the services I provide with my skills. Thanks to those who trust in my work ✨.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+    <summary>Client</summary>
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+      <li><a href="https://react.dev/">React</a></li>
+      <li><a href="https://reactrouter.com/en/main">React-Router</a></li>
+      <li><a href="https://www.w3schools.com/js/js_es6.asp">ES6</a></li>
+    </ul>
+  </details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+<summary>Database</summary>
+  <ul>
+   <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">LocalStorage</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Features -->
 
-### `npm run eject`
+### Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  - **[Mobile App]** Designed as a mobile application, offering accessibility and convenience for users on the go.
+  - **[Interactive]** Provides an engaging and interactive user experience, enhancing user interaction and immersion.
+  - **[User-Friendly]** Prioritizes ease of use and intuitive design, ensuring a friendly experience for all users.
+  - **[Reliable]** Built with robustness in mind, delivering reliable performance and stability for seamless usage.
+  - **[Efficient]** Optimized for efficiency, maximizing resource utilization, and delivering swift response times.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- LIVE DEMO -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Live Demo & preview <a name="live-demo"></a>
 
-## Learn More
+<div align="center">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![portfolio](https://github.com/VelzckC0D3/VelzckC0D3_Portfolio/assets/92229666/b502f6c5-2048-4a3a-bc7f-e89fa273a0c4)
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- _You can visit the live demo [here](https://velzck.netlify.app/)_
+ 
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- GETTING STARTED -->
 
-### Analyzing the Bundle Size
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running, follow these steps.
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In order to run this project you need:
 
-### Advanced Configuration
+```sh
+ To have a computer, Internet, Keyboard and Mouse
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  Open it with Visual Studio Code (or your preffered IDE), and open a server with "LiveServer".
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  Installation is not necessary
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+npm run start
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project following these steps:
 
-### `npm run build` fails to minify
+```sh
+Open the console and run the command: npm run build
+This command will build the project for deployment.'
+```
+```sh
+Once the build process is complete, run the command: npm run start
+This command will start the deployment process.
+```
+```sh
+The website will be deployed and accessible for use.
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHOR -->
+
+## 👥 Author <a name="author"></a>
+
+- GitHub: [@VelzckC0D3](https://github.com/VelzckC0D3)
+- LinkedIn: [VelzckC0D3](https://www.linkedin.com/in/velzckcode/)
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, be pending on my profile since I'll be doing much more! 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
