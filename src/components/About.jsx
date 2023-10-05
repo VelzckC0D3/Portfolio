@@ -8,12 +8,12 @@ const About = () => (
       <div className="about">
         <div className="aboutMain">
           <h2 className="aboutTitle" data-aos-once="true" data-aos="fade-left" data-aos-duration="1000">about me</h2>
-          <div className="aboutImgCont" data-aos-once="true" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
-            <div className="aboutImg" data-aos-once="true" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"> </div>
+          <div className="aboutImgCont" data-aos-once="true" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+            <div className="aboutImg" data-aos-once="true" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"> </div>
           </div>
         </div>
         <div className="aboutInfo">
-          <div className="aboutDesc" data-aos-once="true" data-aos="fade-left" data-aos-delay="550" data-aos-duration="1000">
+          <div className="aboutDesc" data-aos-once="true" data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">
             full-stack developer with a strong focus on front-end, Agile
             development environments, emphasizing effective communication and collaboration.
             <br />
@@ -28,10 +28,10 @@ const About = () => (
           </div>
         </div>
         <div className="aboutButtonCont">
-          <div className="buttonCont" data-aos-once="true" data-aos="fade-left" data-aos-delay="750" data-aos-duration="800">
+          <div className="buttonCont" data-aos-once="true" data-aos="fade-left" data-aos-delay="550" data-aos-duration="800">
             <a className="aboutButton" href="#experience">experience</a>
           </div>
-          <div className="buttonCont" data-aos-once="true" data-aos="fade-left" data-aos-delay="850" data-aos-duration="800">
+          <div className="buttonCont" data-aos-once="true" data-aos="fade-left" data-aos-delay="650" data-aos-duration="800">
             <a className="aboutButton" href="#projects">projects</a>
           </div>
         </div>

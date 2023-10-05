@@ -101,7 +101,8 @@
 
 .heroTitle {
   opacity: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  -webkit-text-stroke: 0.3px;
   animation: fadeIn 500ms ease-in-out forwards;
   animation-delay: 0.5s;
 }

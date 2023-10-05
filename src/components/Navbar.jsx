@@ -43,6 +43,7 @@ const Navbar = () => {
           <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#about" onClick={menuActions}>about</a></li>
           <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#experience" onClick={menuActions}>experience</a></li>
           <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#projects" onClick={menuActions}>projects</a></li>
+          <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#skills" onClick={menuActions}>skills</a></li>
           <li className={`navLi ${isActive ? 'displayLi' : ''}`}><a href="#contact" onClick={menuActions}>contact</a></li>
         </ul>
 

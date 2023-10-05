@@ -14,8 +14,8 @@ const Contact = () => (
         <div className="contactFormCont">
           <div className="contactForm" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000" data-aos-once="true">
             <div className="formHeader">
-              <p className="contactText">we can develop an amazing product!</p>
-              <p>let&rsquo;s get in touch</p>
+              <p className="contactText">let&apos;s create something amazing!</p>
+              <p>reach out for collaboration, ideas, or more</p>
             </div>
             <ContactForm />
           </div>

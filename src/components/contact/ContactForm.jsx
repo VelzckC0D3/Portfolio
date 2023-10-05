@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GoMail } from 'react-icons/go';
+import toast from 'react-hot-toast';
 
 const ContactForm = () => {
   const form = useRef();
@@ -12,7 +13,15 @@ const ContactForm = () => {
     emailjs.sendForm('service_b365vfw', 'template_utf004l', form.current, 'ksgEozaWOPc2jZiop')
       .then((result) => {
         form.current.reset();
-        alert('Message sent successfully');
+        toast('Message sent!',
+          {
+            icon: '📨',
+            style: {
+              borderRadius: '10px',
+              background: '#333',
+              color: '#fff',
+            },
+          });
 
         const { status } = result;
         return status;
