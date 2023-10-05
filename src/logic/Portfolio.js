@@ -6,7 +6,7 @@ const projects = [
     technologies: ['React & Redux', 'Ruby on Rails', 'API Endpoint', 'PostgreSQL'],
     repo: 'https://github.com/VelzckC0D3/Land-Rover-E-Commerce',
     demo: 'https://land-rover-e.netlify.app/',
-    thumbnail: 'https://i.imgur.com/KLxQzIA.png',
+    thumbnail: 'https://i.imgur.com/t3GYAkU.png',
     id: '1',
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     technologies: ['React & Redux', 'Ruby on Rails', 'API Endpoint', 'PostgreSQL'],
     repo: 'https://github.com/VelzckC0D3/Budget_App',
     demo: 'https://rails-eb2s.onrender.com/',
-    thumbnail: 'https://i.imgur.com/lObONCw.png',
+    thumbnail: 'https://i.imgur.com/TTskEqc.png',
     id: '2',
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     technologies: ['CSS', 'HTML', 'JavaScript', 'DOM'],
     repo: 'https://github.com/VelzckC0D3/Velzck_Shop',
     demo: 'https://velzckshop.netlify.app/',
-    thumbnail: 'https://i.imgur.com/d2OYnQt.png',
+    thumbnail: 'https://i.imgur.com/JPrPqMF.png',
     id: '3',
   },
   {
