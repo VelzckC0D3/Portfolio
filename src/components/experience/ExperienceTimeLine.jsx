@@ -51,7 +51,7 @@ const ExperienceTimeLine = () => (
         iconStyle={{ transform: 'scale(0.9)', backgroundColor: 'rgb(22 22 22)', color: '#fff' }}
         icon={<FaChalkboardTeacher />}
       >
-        <h3 className="vertical-timeline-element-title">Mentor</h3>
+        <h3 className="vertical-timeline-element-title">Mentor (volunteer)</h3>
         <p className="timeline-name">Microverse</p>
         <p className="vertical-timeline-element-subtitle">San Francisco, CA (remote)</p>
         <p className="timeline-text">

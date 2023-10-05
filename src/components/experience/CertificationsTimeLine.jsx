@@ -17,7 +17,7 @@ const CertificationsTimeLine = () => (
         position="right"
       >
         <h3 className="vertical-timeline-element-title">Master of Computer Applications</h3>
-        <p className="timeline-name">Microverse</p>
+        <p className="timeline-name">Microverse (1600+ hours)</p>
         <p className="vertical-timeline-element-subtitle">San Francisco, CA (remote)</p>
         <p>
           Full-Stack Development,
