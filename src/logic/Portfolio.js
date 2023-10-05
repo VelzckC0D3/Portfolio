@@ -33,7 +33,7 @@ const projects = [
     technologies: ['React & Redux', 'API Rest', 'DOM', 'ES6', 'Mobile First'],
     repo: 'https://github.com/VelzckC0D3/game_collection',
     demo: 'https://velzck-collection.netlify.app',
-    thumbnail: 'https://i.imgur.com/GYuEuFA.png',
+    thumbnail: 'https://i.imgur.com/1L6abUO.png',
     id: '4',
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'DOM'],
     repo: 'https://github.com/VelzckC0D3/Velzck_Festival',
     demo: 'https://velzck-festival.netlify.app/index.html',
-    thumbnail: 'https://i.imgur.com/8qBX0Sl.png',
+    thumbnail: 'https://i.imgur.com/ojSG9I6.png',
     id: '5',
   },
   {

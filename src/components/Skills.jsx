@@ -1,13 +1,14 @@
 import React from 'react';
 import '../style/Skills.css';
-import { AiFillHtml5 } from 'react-icons/ai';
+import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 import { FaCss3Alt, FaReact } from 'react-icons/fa';
 import { TbBrandRedux } from 'react-icons/tb';
 import { HiOutlineDatabase } from 'react-icons/hi';
-import { SiRubyonrails } from 'react-icons/si';
-import { DiRubyRough } from 'react-icons/di';
+import { SiRubyonrails, SiGnubash } from 'react-icons/si';
+import { DiRubyRough, DiPhotoshop, DiTerminal } from 'react-icons/di';
 import { BsGit } from 'react-icons/bs';
 import { RiTestTubeLine } from 'react-icons/ri';
+import { FiFigma } from 'react-icons/fi';
 
 const Skills = () => (
   <div className="skillsCont" id="skills">
@@ -19,8 +20,8 @@ const Skills = () => (
         <div className="frontEnd skillBox" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000" data-aos-once="true">
           <div className="skill">
             <h2 className="skillTitle">front-end</h2>
-            <p>
-              transform design concepts into enhanced, visually appealing and responsive interfaces,
+            <p className="skillText">
+              transform design concepts into enhanced, visually appealing & responsive interfaces,
               elevating user experiences through UI/UX solutions.
             </p>
             <div className="skillIcons">
@@ -50,7 +51,7 @@ const Skills = () => (
         <div className="backEnd skillBox" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000" data-aos-once="true">
           <div className="skill">
             <h2 className="skillTitle">back-end</h2>
-            <p>
+            <p className="skillText">
               provide software solutions through back-end systems,
               integrating software testing, solid databases & advanced features.
             </p>
@@ -78,11 +79,39 @@ const Skills = () => (
             </div>
           </div>
         </div>
+        <div className="tools skillBox" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000" data-aos-once="true">
+          <div className="skill">
+            <h2 className="skillTitle">design & tools</h2>
+            <p className="skillText">
+              utilize various design & development tools to
+              boost productivity, & enhance creative processes,
+              ensuring effective project management & execution.
+            </p>
+            <div className="skillIcons">
+              <div className="iconCont">
+                <p>GitHub</p>
+                <AiFillGithub className="skillIcon" />
+              </div>
+              <div className="iconCont">
+                <p>Bash</p>
+                <SiGnubash className="skillIcon" />
+              </div>
+              <div className="iconCont">
+                <p>Ps</p>
+                <DiPhotoshop className="skillIcon" />
+              </div>
+              <div className="iconCont">
+                <p>Figma</p>
+                <FiFigma className="skillIcon redux" />
+              </div>
+              <div className="iconCont">
+                <p>Terminal</p>
+                <DiTerminal className="skillIcon redux" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      {/* <p className="skillsText">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid libero earum
-        eos quod necessitatibus cum ex, aut tenetur corrupti?
-      </p> */}
     </div>
   </div>
 );

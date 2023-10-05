@@ -30,9 +30,10 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  transform: translateY(-3.7rem) scaleX(-1);
+  transform: translateY(-4rem) scaleX(-1);
   background-image: url(../assets/img/contactBg.webp);
   filter: invert(1) saturate(0) contrast(1.2) brightness(1.5) blur(3px);
+  background-color: black;
   background-size: cover;
   z-index: -4;
 }
@@ -69,12 +70,18 @@
   animation: glow 2s ease-in-out infinite;
 }
 
+.skillText {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .skillIcons {
   width: 100%;
   max-width: 20rem;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1rem;
   padding: 0.5rem;
   gap: 0.5rem;
   justify-content: center;

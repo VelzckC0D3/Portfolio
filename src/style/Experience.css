@@ -27,7 +27,6 @@
 }
 
 .timeLine {
-  /*     background-color: red; */
   width: 100vw;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -55,6 +54,22 @@
 .timeline-text {
   line-height: 1.3rem !important;
   font-size: 1rem;
+}
+
+.timelineLink {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  background-color: rgb(95, 95, 95);
+  border: none;
+  border-bottom: 3px solid rgb(59, 59, 59);
+}
+
+.timelineLink:hover {
+  background-color: rgb(122, 122, 122);
 }
 
 .divider {

@@ -31,7 +31,16 @@ const CertificationsTimeLine = () => (
           Collaboration and Teamwork,
           Agile Development
         </p>
-        <a className="certificationLink" href="https://www.credential.net/profile/josealejandrobenjumeavelasquez978619/wallet" target="_blank" rel="noopener noreferrer">check all credentials</a>
+        <button
+          type="button"
+          className="timelineLink"
+          onClick={() => {
+            window.open('https://www.credential.net/profile/josealejandrobenjumeavelasquez978619/wallet', '_blank', 'noreferrer');
+          }}
+        >
+          check all credentials
+
+        </button>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -43,10 +52,20 @@ const CertificationsTimeLine = () => (
         icon={<TbCertificate />}
         position="left"
       >
-        <h3 className="vertical-timeline-element-title">Ipsum Amet</h3>
-        <p className="timeline-name">Lorem Ipsum</p>
-        <p className="vertical-timeline-element-subtitle">San Francisco, CA</p>
-        <a className="certificationLink" href="http://tupapa.com" target="_blank" rel="noopener noreferrer">check credential</a>
+        <h3 className="vertical-timeline-element-title">C1 Advanced English</h3>
+        <p className="timeline-name">EF SET</p>
+        <p className="vertical-timeline-element-subtitle">Worldwide (online)</p>
+        <p>Fully conversational professional english</p>
+        <button
+          type="button"
+          className="timelineLink"
+          onClick={() => {
+            window.open('https://www.efset.org/cert/3BBYR8', '_blank', 'noreferrer');
+          }}
+        >
+          check credential
+
+        </button>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement

@@ -32,6 +32,15 @@ root.render(
         border: '3px solid white',
         mixBlendMode: 'exclusion',
       }}
+      clickables={[
+        '.skillIcon',
+        '.aboutButton',
+        '.heroButton',
+        'a',
+        '.formInput',
+        '.submitButton',
+        'button',
+      ]}
     />
     <Router>
       <Navbar />
