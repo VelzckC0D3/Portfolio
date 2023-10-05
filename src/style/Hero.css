@@ -127,24 +127,6 @@
   -webkit-text-stroke: 0.7px;
 }
 
-.swiper {
-  height: 100%;
-  user-select: none;
-  cursor: grab;
-}
-
-.swiper:active {
-  cursor: grabbing;
-}
-
-.swiper-slide {
-  height: 100%;
-  display: flex !important;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .heroButton {
   font-size: 1.5rem;
   display: flex;
