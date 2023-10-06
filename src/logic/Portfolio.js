@@ -36,7 +36,7 @@ const projects = [
     technologies: ['React & Redux', 'API Rest', 'DOM', 'ES6', 'Mobile First'],
     repo: 'https://github.com/VelzckC0D3/game_collection',
     demo: 'https://velzck-collection.netlify.app',
-    thumbnail: 'https://i.imgur.com/1L6abUO.png',
+    thumbnail: 'https://i.postimg.cc/C57D6rsB/game1.webp',
     gallery: ['https://i.postimg.cc/C57D6rsB/game1.webp', 'https://i.postimg.cc/CMsj1dph/game2.webp'],
     id: '4',
   },
