@@ -286,7 +286,7 @@
   backdrop-filter: blur(7px);
   position: absolute;
   /* stylelint-disable */
-  width:  100dvw;
+  width:  100vw;
   height: 100dvh;
   /* stylelint-enable */
   z-index: 5;
