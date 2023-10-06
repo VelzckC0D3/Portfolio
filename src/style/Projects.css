@@ -158,11 +158,12 @@
 
 .projectLinks {
   list-style: none;
+  height: 8rem;
+  padding: 2rem 0 1rem;
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   gap: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
   backdrop-filter: blur(2px);
   transform: translateY(-2rem);
   -webkit-transform: translateY(-2rem);
@@ -213,6 +214,10 @@
   transform: translateY(3px);
   -webkit-transform: translateY(3px);
   will-change: transform;
+}
+
+.galleryBtn {
+  margin: 0 0.5rem;
 }
 
 .projectSubCont:hover .projectTitle,
@@ -268,12 +273,118 @@
 }
 
 .projectSubCont:hover .projectLink {
-  transform: translateY(1rem);
-  -webkit-transform: translateY(1rem);
+  transform: translateY(-1rem);
+  -webkit-transform: translateY(-1rem);
   will-change: transform;
   filter: invert(0);
   opacity: 1;
 }
+
+/* MODAL */
+
+.modalCont {
+  backdrop-filter: blur(7px);
+  position: absolute;
+  /* stylelint-disable */
+  width:  100dvw;
+  height: 100dvh;
+  /* stylelint-enable */
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: 0.25s fadeInBg ease-in-out forwards;
+}
+
+.modal {
+  width: 100%;
+  max-width: 35rem;
+  border-radius: 15px;
+  border: 2px solid rgb(78, 78, 78);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.459) 5%, rgb(24, 24, 24) 55%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  padding-bottom: 1.5rem;
+  animation: 0.25s fadeIn 0.1s ease-in-out forwards;
+}
+
+.modalHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  border-radius: 15px 15px 0 0;
+  border-bottom: 2px solid rgb(78, 78, 78);
+}
+
+.modalTitle {
+  animation: glow 2s ease-in-out infinite alternate;
+  padding-left: 0.5rem;
+}
+
+.closeModal {
+  font-size: 2rem;
+  color: rgb(197, 197, 197);
+}
+
+.closeModal:hover {
+  color: white;
+}
+
+.modalClose {
+  animation: fadeIn 0.2s ease-in-out reverse forwards;
+}
+
+.modalImg {
+  width: 100%;
+  max-width: 30rem;
+  user-select: none;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.modalTechs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  padding: 0.5rem 0;
+}
+
+.modalTech {
+  color: white;
+  text-decoration: none;
+}
+
+.modalLinks {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.modalLink {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+}
+
+/* MODAL */
 
 @media screen and (min-width: 1350px) {
   .projectCont {

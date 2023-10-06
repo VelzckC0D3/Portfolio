@@ -7,6 +7,7 @@ const projects = [
     repo: 'https://github.com/VelzckC0D3/Land-Rover-E-Commerce',
     demo: 'https://land-rover-e.netlify.app/',
     thumbnail: 'https://i.imgur.com/t3GYAkU.png',
+    gallery: ['https://i.postimg.cc/9XB01rdR/land1.webp', 'https://i.postimg.cc/fy5bbrzj/land2.webp', 'https://i.postimg.cc/MHzTqSSp/land3.webp', 'https://i.postimg.cc/fRVkDdy3/land5.webp', 'https://i.postimg.cc/3rj8TBZf/land4.webp'],
     id: '1',
   },
   {
@@ -16,6 +17,7 @@ const projects = [
     repo: 'https://github.com/VelzckC0D3/Budget_App',
     demo: 'https://rails-eb2s.onrender.com/',
     thumbnail: 'https://i.imgur.com/TTskEqc.png',
+    gallery: ['https://i.postimg.cc/B6r8tcY7/wise1.webp', 'https://i.postimg.cc/NFRKX9Zs/wise2.webp', 'https://i.postimg.cc/zX1br7RV/wise3.webp', 'https://i.postimg.cc/MZBMNNHC/wise4.webp', 'https://i.postimg.cc/J4cy4XbK/wise5.webp'],
     id: '2',
   },
   {
@@ -25,6 +27,7 @@ const projects = [
     repo: 'https://github.com/VelzckC0D3/Velzck_Shop',
     demo: 'https://velzckshop.netlify.app/',
     thumbnail: 'https://i.imgur.com/JPrPqMF.png',
+    gallery: ['https://i.postimg.cc/NjR77Lqz/sneaker1.webp', 'https://i.postimg.cc/nLZKdZnc/sneaker2.webp', 'https://i.postimg.cc/tg53wfgd/sneaker3.webp'],
     id: '3',
   },
   {
@@ -34,6 +37,7 @@ const projects = [
     repo: 'https://github.com/VelzckC0D3/game_collection',
     demo: 'https://velzck-collection.netlify.app',
     thumbnail: 'https://i.imgur.com/1L6abUO.png',
+    gallery: ['https://i.postimg.cc/C57D6rsB/game1.webp', 'https://i.postimg.cc/CMsj1dph/game2.webp'],
     id: '4',
   },
   {
@@ -43,6 +47,7 @@ const projects = [
     repo: 'https://github.com/VelzckC0D3/Velzck_Festival',
     demo: 'https://velzck-festival.netlify.app/index.html',
     thumbnail: 'https://i.imgur.com/ojSG9I6.png',
+    gallery: ['https://i.postimg.cc/bvjysxnd/festival1.webp', 'https://i.postimg.cc/25Fzv1dG/festival2.webp', 'https://i.postimg.cc/Qt8jqj03/festival3.webp', 'https://i.postimg.cc/j2CKGvp3/festival4.webp', 'https://i.postimg.cc/d3Xvvrvs/festival5.webp'],
     id: '5',
   },
   {
@@ -52,6 +57,7 @@ const projects = [
     repo: 'https://github.com/VelzckC0D3/math_magicians_react',
     demo: 'https://velzck-magician.netlify.app/',
     thumbnail: 'https://i.imgur.com/LSOLxy8.png',
+    gallery: ['https://i.postimg.cc/FHK24Tnv/magician1.webp', 'https://i.postimg.cc/SxtHNcwM/magician2.webp', 'https://i.postimg.cc/QM9wBH3n/magician3.webp'],
     id: '6',
   },
 ];

@@ -39,6 +39,7 @@ root.render(
         'a',
         '.formInput',
         '.submitButton',
+        '.closeModal',
         'button',
       ]}
     />
