@@ -283,10 +283,12 @@
 /* MODAL */
 
 .modalCont {
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
+  width: 100vw;
+  left: 0;
   /* stylelint-disable */
-  width:  100vw;
   height: 100dvh;
   /* stylelint-enable */
   z-index: 5;
@@ -299,11 +301,11 @@
 }
 
 .modal {
-  width: 100%;
+  width: 90%;
   max-width: 35rem;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 2px solid rgb(78, 78, 78);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.459) 5%, rgb(24, 24, 24) 55%);
+  background: linear-gradient(180deg, rgba(58, 58, 58, 0.568) 5%, rgb(0, 0, 0) 55%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -312,8 +314,9 @@
   text-align: center;
   transition: all 0.5s ease-in-out;
   opacity: 0;
-  padding-bottom: 1.5rem;
+  padding: 0.5rem 0 1.5rem;
   animation: 0.25s fadeIn 0.1s ease-in-out forwards;
+  overflow: hidden;
 }
 
 .modalHeader {
@@ -321,20 +324,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(0, 0, 0);
   padding: 0.5rem;
   border-radius: 15px 15px 0 0;
-  border-bottom: 2px solid rgb(78, 78, 78);
 }
 
 .modalTitle {
   animation: glow 2s ease-in-out infinite alternate;
   padding-left: 0.5rem;
+  width: 100%;
+  transform: translateY(0.7rem);
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
 .closeModal {
   font-size: 2rem;
   color: rgb(197, 197, 197);
+  transform: translateY(-0.7rem);
 }
 
 .closeModal:hover {
@@ -349,39 +354,29 @@
   width: 100%;
   max-width: 30rem;
   user-select: none;
+  border-radius: 25px;
 }
 
 .swiper {
-  width: 100%;
-}
-
-.modalTechs {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding: 0 1rem;
-  padding: 0.5rem 0;
-}
-
-.modalTech {
-  color: white;
-  text-decoration: none;
+  width: 90%;
+  border-radius: 25px;
 }
 
 .modalLinks {
+  width: 90%;
   display: flex;
-  list-style: none;
+  justify-content: center;
   gap: 1rem;
+  align-items: center;
+  list-style: none;
 }
 
 .modalLink {
-  color: black;
   background-color: white;
-  text-decoration: none;
+  color: black;
   padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  -webkit-text-stroke: 0.5px;
 }
 
 /* MODAL */

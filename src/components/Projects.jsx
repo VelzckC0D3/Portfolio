@@ -34,7 +34,7 @@ function Projects() {
       document.querySelector('.navCont').style.pointerEvents = 'none';
       document.querySelector('.navCont').style.transform = 'translateY(-5rem)';
     } else {
-      document.querySelector('.wrapper').style.overflow = 'auto';
+      document.querySelector('.wrapper').style.overflowY = 'scroll';
       document.querySelector('.navCont').style.pointerEvents = 'auto';
       document.querySelector('.navCont').style.transform = 'translateY(0)';
     }
@@ -92,11 +92,6 @@ function Projects() {
                 <div className="modalHeader">
                   <h2 className="modalTitle">{selectedProject.title}</h2>
                   <RiCloseLine type="button" className="closeModal" onClick={() => { setTimeout(() => { toggleModal(); }, 200); document.querySelector('.modalCont').classList.add('modalClose'); }} />
-                </div>
-                <div className="modalTechs">
-                  {selectedProject.technologies.map((tech) => (
-                    <p className="modalTech" key={tech.id}>{tech}</p>
-                  ))}
                 </div>
                 <Swiper
                   modules={[Navigation, Pagination, Autoplay]}
