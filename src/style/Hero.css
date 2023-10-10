@@ -1,0 +1,211 @@
+@keyframes fadeIn {
+  from {
+    transform: translateX(1rem);
+    -webkit-transform: translateX(1rem);
+    will-change: transform;
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    will-change: transform;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInIcon {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes borderGlow {
+  0% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  50% {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  100% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+}
+
+.heroCont {
+  padding-top: 3.5rem;
+  color: white;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+  border-bottom: 3px solid white;
+}
+
+.heroBG {
+  background-image: url("../assets/img/bg.webp");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 100%;
+  background-position: 0% 50%;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  position: absolute;
+  filter: saturate(0) contrast(1.05);
+  transform: translateZ(-30px) scale(8);
+  -webkit-transform: translateZ(-30px) scale(8);
+  will-change: transform;
+  opacity: 0;
+  animation: fadeInBg 3s ease-in-out forwards 0.15s;
+}
+
+.heroBG::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 100px 100px rgb(0 0 0 / 93%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 13%, rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  z-index: -3;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  backdrop-filter: blur(2px);
+}
+
+.heroInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transform: translateY(-3rem);
+  -webkit-transform: translateY(-3rem);
+  will-change: transform;
+  font-size: 1.5rem;
+}
+
+.heroTitle {
+  opacity: 0;
+  font-size: 2rem;
+  -webkit-text-stroke: 0.3px;
+  animation: fadeIn 500ms ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+.heroSub {
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 500ms ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+.heroSubTitle {
+  opacity: 0;
+  padding-bottom: 1rem;
+  animation: fadeIn 500ms ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+.heroSpan {
+  animation: glow 2s ease-in-out infinite;
+  white-space: nowrap;
+  -webkit-text-stroke: 0.7px;
+}
+
+.heroButton {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--unselected);
+  text-decoration: none;
+  text-transform: lowercase;
+  -webkit-text-transform: lowercase;
+  will-change: transform;
+  transition: all 600ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255);
+  border-radius: 20px;
+  opacity: 0;
+  animation: fadeIn 500ms ease-in-out forwards, borderGlow 3000ms ease-in-out infinite;
+  animation-delay: 1.5s;
+  -webkit-text-stroke: 0.7px;
+  margin-top: 2rem;
+}
+
+.heroButton:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0);
+  transition: all 200ms ease-in-out !important;
+}
+
+.heroIcons {
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.heroIconsLi a {
+  color: rgb(192, 192, 192);
+  font-size: 2rem;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 250ms ease-in-out;
+}
+
+.heroIconsLi a::before {
+  content: "";
+  position: absolute;
+  width: 2.2rem;
+  height: 2.2rem;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translateY(0.2rem);
+  border-bottom: 3px solid rgba(255, 0, 0, 0);
+  transition: all 250ms ease-in-out;
+}
+
+.heroIconsLi a:hover {
+  color: white;
+}
+
+.heroIconsLi a:hover::before {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.github {
+  animation: fadeInIcon 500ms ease-in-out forwards;
+  animation-delay: 2.2s;
+}
+
+.mail {
+  animation: fadeInIcon 500ms ease-in-out forwards;
+  animation-delay: 2.1s;
+}
+
+.linkedin {
+  animation: fadeInIcon 500ms ease-in-out forwards;
+  animation-delay: 2s;
+}

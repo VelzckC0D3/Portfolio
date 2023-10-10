@@ -1,19 +1,52 @@
-body {
+@keyframes fadeInBg {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes glow {
+  0% {
+    color: rgba(0, 255, 0, 0.5);
+  }
+
+  50% {
+    color: rgb(0, 255, 0);
+  }
+
+  100% {
+    color: rgba(0, 255, 0, 0.5);
+  }
+}
+
+/* stylelint-disable */
+:root {
+  color-scheme: dark;
+}
+/* stylelint-enable */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 code {
@@ -24,4 +57,23 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.wrapper {
+  /* stylelint-disable */
+  height: 100dvh;
+  /* stylelint-enable */
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+.navCont,
+.wrapper {
+  opacity: 0;
+  animation: fadeInBg 2s ease-in-out forwards;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
 }

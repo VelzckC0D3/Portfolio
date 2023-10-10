@@ -1,0 +1,186 @@
+.contactCont {
+  color: white;
+  width: 100vw;
+  /* stylelint-disable */
+  height: 100dvh;
+  /* stylelint-enable */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@keyframes gradientRotation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.contact {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3.5rem;
+  align-items: center;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3.7rem) scaleY(-1);
+  background-image: url(../assets/img/contactBg.webp);
+  filter: invert(1) saturate(0) contrast(1.2) brightness(1.5) blur(3px);
+  background-size: cover;
+  z-index: -4;
+}
+
+.contact::after {
+  content: "";
+  border-top: 3px solid white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3.7rem);
+  background: linear-gradient(190deg, rgb(0 0 0) 20%, rgb(0 0 0 / 25%) 100%);
+  z-index: -3;
+}
+
+.contactTitle {
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 5.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.contactFormCont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactForm {
+  padding: 1.5rem 1.5rem 0.5rem;
+  width: 90%;
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 31px;
+  background: linear-gradient(0deg, #ffffff09, #000000bd);
+  border: 2px solid rgb(41, 41, 41);
+  box-shadow: 18px 18px 36px #00000060, -18px -18px 36px #00000060;
+  backdrop-filter: blur(4px);
+}
+
+.formHeader {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.contactText {
+  animation: glow 3s ease-in-out infinite;
+  font-size: 1.3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.formInput {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 100%;
+  border-bottom: 1px solid white;
+  outline: none;
+  font-size: 1.3rem;
+  -webkit-text-stroke: 0.2px black;
+  resize: none;
+  transition: all 500ms ease-in-out;
+}
+
+.formInput:focus {
+  border-bottom: 1px solid #1eff00;
+  transition: all 200ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.formInput::placeholder {
+  transition: all 500ms ease-in-out;
+  color: rgba(255, 255, 255, 0.753);
+}
+
+.formInput:focus::placeholder {
+  transition: all 200ms ease-in-out;
+  color: rgba(0, 0, 0, 0);
+}
+
+.form textarea {
+  height: 8rem;
+}
+
+@keyframes glow {
+  0% {
+    color: rgba(0, 255, 0, 0.5);
+  }
+
+  50% {
+    color: rgb(0, 255, 0);
+  }
+
+  100% {
+    color: rgba(0, 255, 0, 0.5);
+  }
+}
+
+.submitButton {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--unselected);
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.589);
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 7px;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.submitButton:hover {
+  color: #1eff00;
+  border-color: #1eff00;
+  background-color: black;
+  transition: all 200ms ease-in-out;
+}
