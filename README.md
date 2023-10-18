@@ -73,7 +73,7 @@ This is my personal portfolio developed with React, here you're going to be able
 
 <div align="center">
 
-![portfolio](https://github.com/VelzckC0D3/VelzckC0D3_Portfolio/assets/92229666/b502f6c5-2048-4a3a-bc7f-e89fa273a0c4)
+![portfolio](https://github.com/VelzckC0D3/Portfolio/assets/92229666/b502f6c5-2048-4a3a-bc7f-e89fa273a0c4)
 </div>
 
 - _You can visit the live demo [here](https://velzck.netlify.app/)_
